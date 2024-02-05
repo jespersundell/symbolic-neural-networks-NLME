@@ -9,7 +9,7 @@ using DataFramesMeta
 using CairoMakie
 
 ## Read data set
-moddat = CSV.read("white_data.csv", DataFrame)
+moddat = CSV.read("data.csv", DataFrame)
 
 ## Convert data set to object which is readable to Pumas
 pop_SNN = read_pumas(
